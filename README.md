@@ -72,3 +72,6 @@ node index.js
 
 open this link in browser: [http://3000/hello](http://3000/hello)
 
+others:
+* [Firebase function init](./firebase-quick.md)
+
