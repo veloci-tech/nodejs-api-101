@@ -34,4 +34,14 @@ export const helloWorld = functions.https.onRequest((request, response) => {
 cd function
 npm run deploy
 </pre>
-* Create Web App to get firebaseConfig
+
+<hr />
+For the app configurations, use file ".runtimeconfig.json"
+
+To get the settings into PROD, edit the file online
+
+1) Go the Google Cloud Account https://cloud.google.com/
+2) Choose the same project as the project you're hosting in2 firebease.
+3) Go to the service cloud function
+4) Find your service and click on edit and your can add env variable, build variable.
+5) See the build files, add or edit .runtimeconfig.json
